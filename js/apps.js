@@ -35,9 +35,9 @@ const seattle = {
         }
     },
     render:function(){
-        let locationName = document.createElement('h2');
-        cont.appendChild(locationName);
-        locationName.textContent = this.locationName;
+        let cityName = document.createElement('h2');
+        cont.appendChild(cityName);
+        cityName.textContent = this.locationName;
 
         let unOrderedList = document.createElement('ul');   
         cont.appendChild(unOrderedList);
